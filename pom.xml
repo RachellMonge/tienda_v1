@@ -8,13 +8,13 @@
 		<version>3.2.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>tienda_v1</groupId>
-	<artifactId>tienda</artifactId>
+	<groupId>com.tienda</groupId>
+	<artifactId>Tienda</artifactId>
 	<version>1</version>
-	<name>tienda</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Tienda</name>
+	<description>Proyecto Tienda Curso Lunes</description>
 	<properties>
-		<java.version>20</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
