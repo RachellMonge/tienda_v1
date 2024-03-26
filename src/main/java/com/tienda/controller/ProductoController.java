@@ -63,7 +63,9 @@ public class ProductoController {
     @GetMapping("/modificar/{idProducto}")
     public String productoModificar(Producto producto, Model model) {
         producto = productoService.getProducto(producto);
+         var categorias = CategoriaService.getCategorias(false);
         model.addAttribute("producto", producto);
+         model.addAttribute("categorias", categorias);
         return "/producto/modifica";
     }   
 }
